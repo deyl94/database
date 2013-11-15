@@ -1,0 +1,56 @@
+<!--
+Изготовление деталей
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Вход</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="../details.css" >
+    </head>
+    <body>
+        <div class="style">
+            <div class="ribbon">
+                <div class="ribbon-front">
+                    <div class="front-text">
+                        Вход в систему  
+                    </div>
+                </div>
+                
+                <div class="ribbon-edge-topleft"></div>
+                <div class="ribbon-edge-topright"></div>
+                <div class="ribbon-edge-bottomleft"></div>
+                <div class="ribbon-edge-bottomright"></div>
+                <div class="ribbon-back-left"></div>
+                <div class="ribbon-back-right"></div>
+                
+                <form action="PHP/index.php" method="post" class="form-signin">
+                    <br>
+                    <input name="login" type="text" placeholder="Логин" class="field" required>
+                    <br><input name="password" type="password" placeholder="Пароль" class="field" required>
+                    <br>
+                    <br>
+                    <input type="submit" name="submit1" value="Войти" class="button">
+                    <input type="reset" value="Очистить" class="button">
+                </form>
+
+            </div>
+        </div>
+        
+        <!--            <table >
+                        <tr>
+                            <td valign="top" align="center">
+                            <form action="PHP/index.php" method="post" name="form">
+                            <br>
+                            <input name="login" placeholder="Логин" class="field" required>
+                            <br>
+                            <input name="password" type="password" placeholder="Пароль" class="field" required>
+                            <br><br><input type="submit" name="отправить" value="Авторизация">
+                            <br> <input type="reset" name="Очистить" value="Очистить">
+                            </form>
+                            </td>
+                        </tr>
+                    </table>-->
+
+    </body>
+</html>

@@ -1,0 +1,175 @@
+/*
+    Document   : details
+    Created on : 20.10.2013, 16:12:23
+    Author     : roland
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.field {
+    width: 100px;
+    height: 30px;
+    border: 1px groove black;
+    border-radius: 3px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    transition-duration: 1s;
+}
+
+.field:focus {
+    width: 200px;
+    border: 2px groove red;
+}
+
+.form-signin {
+    max-width: 300px;
+    margin: 0 0 80px;
+    text-align: center;
+    padding: 20px 30px 30px;
+    background-color: gray;
+    border: 1px solid black;
+    border:0;
+    font: 16px Arial;
+    color: blanchedalmond;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0px 0px 100px rgba(0,0,0,0.55);
+}
+
+.form-signin input[type="text"], .form-signin input[type="password"] {
+    font-size: 13px;
+    outline-width: 2px;
+    height: auto;
+    padding: 5px 9px;
+}
+
+.button {
+    font-size: 15px;
+    padding: 4px 12px;
+    line-height: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+    background-color: beige;
+    width: 100px
+}
+.button_small {
+    font-size: 15px;
+    padding: 4px 12px;
+    line-height: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+    background-color: beige;
+    height: 40px;
+    width: 120px;
+}
+
+.form_error{
+    max-width: 300px;
+    padding: 20px 30px 30px;
+    margin: 0 0 80px;
+    text-align: center;
+    font: 18px Arial;
+    color:  coral;
+}
+
+/* ������ ��� ��� �������� ����� �� ������� �������� ������*/
+
+.style {
+    position:relative;
+    width: 400px;
+    margin: 0 auto;
+    top: 140px;
+}
+
+.ribbon{
+    position: relative;
+    width:600px
+}
+
+.front-text{
+    text-align:center;
+    padding-top:30px;
+    font:30px Arial;
+    color: antiquewhite;
+}
+
+.ribbon-front{
+    background-color: #393939;	
+    height: 100px;
+    width: 360px;
+    position: relative; 
+    top: 0px;
+    box-shadow: 0px 0px 100px rgba(0,0,0,0.55);
+    z-index: 2;
+}
+
+.ribbon-edge-topleft {
+    top: -10px;
+    border-width:10px 20px 0 0;
+    position: absolute;
+    z-index:1;
+    border-style:solid;
+    height:0px;
+    width:0px;
+    border-color:transparent #000000;
+}
+
+.ribbon-edge-topright {
+    top: -10px;
+    border-width: 10px 0 0 20px;
+    position: absolute;
+    z-index:1;
+    border-style:solid;
+    height:0px;
+    width:0px;
+    left: 340px;
+    border-color:transparent transparent transparent #000000;
+}
+
+.ribbon-edge-bottomleft {
+    border-width: 0 20px 0px 0;
+    position: absolute;
+    border-style:solid;
+    height:0px;
+    width:0px;
+    border-color:transparent #000000 transparent transparent;
+    top:100px;
+    z-index:1;
+}
+
+.ribbon-edge-bottomright {
+    border-width: 0 0 0px 20px;
+    position: absolute;
+    z-index:1;
+    border-style:solid;
+    height:0px;
+    width:0px;
+    left: 340px;
+    border-color:transparent transparent transparent #000000;
+    top:100px;
+}
+
+.ribbon-back-left {
+    position:absolute;
+    top: -10px;
+    left: -80px;
+    width: 100px;
+    height: 100px;
+    background-color:#393939;
+    z-index:0;
+    box-shadow: 0px 0px 200px rgba(0,0,0,0.55);
+}
+
+.ribbon-back-right {
+    position:absolute;
+    top: -10px;
+    right: 160px;
+    width: 100px;
+    height: 100px;
+    background-color:#393939;
+    z-index:0;
+    box-shadow: 0px 0px 200px rgba(0,0,0,0.55);
+}
+
+/* ����� ��� ��� �������� ����� �� ������� �������� �����*/

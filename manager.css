@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22.10.2013, 0:24:43
+    Author     : roland
+*/
+
+.style1{
+        position:relative;
+    width: 400px;
+    margin: 0 auto;
+    top: 80px;
+}
+
+.button {
+    font-size: 15px;
+    padding: 4px 12px;
+    line-height: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+    background-color: beige;
+    height: 40px;
+    width: 200px;
+}
+
+.button_small {
+    font-size: 15px;
+    padding: 4px 12px;
+    line-height: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+    background-color: beige;
+    height: 40px;
+    width: 150px;
+    margin: 0px 40px;
+}
+.large 
+{
+    width: 160px;
+}
+.large_mid 
+{
+    width: 100px;
+}
+
+.input[type="text"]{
+    font-size: 13px;
+    outline-width: 2px;
+    height: auto;
+    padding: 5px 9px;
+}
+
+.in  input[type="text"]{
+    font-size: 14px;
+    height: 20px;
+    margin: 0;
+    width: 150px;
+}
+
+.in  input[type="text"]:focus{
+    border: 2px groove red;
+}
+
+.in select {
+    font-size: 14px;
+    outline-width: 2px;
+    /*height: auto;*/
+    height: 32px;
+    width: 170px;
+    padding: 5px 5px;
+}
+
+.in  select:focus{
+    border: 2px groove red;
+}
+
+.small{
+    margin: 3px;
+}
+
+.big{
+    margin: 10px;
+}
+
+.super_big{
+    width: 300px;
+}
+.space {
+    margin-left: 40px;
+}

@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21.10.2013, 2:03:59
+    Author     : roland
+*/
+
+textarea {
+    resize: none; 
+} 
+select {
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    cursor:pointer;
+    width: 105px;
+    font-size: 12px;
+    height: auto;
+    padding: 4px 4px;
+    outline-width: 2px;
+    margin-left: 3px;
+}
+
+select:focus{
+    border: 2px groove red;
+}
+
+.style1 {
+    position:relative;
+    width: 400px;
+    margin: 0 auto;
+    top: 60px;
+}
+
+.in  input[type="text"]{
+    font-size: 1px;
+    height: 10px;
+    margin: 0;
+    width: 85px;
+}
+
+
+.in  input[type="text"]:focus{
+    border: 2px groove red;
+}
+
+p{
+    margin: 0px;
+}

@@ -1,0 +1,155 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21.10.2013, 20:13:59
+    Author     : roland
+*/
+
+.center{
+margin-right: 300px;    
+}
+.button1 {
+    font-size: 15px;
+    padding: 4px 12px;
+    line-height: 20px;
+    color: black;
+    background-color: beige;
+    height: 40px;
+    width: 150px;
+}
+table, th, td
+{
+border-style:solid;
+height:45px;
+border-width:2px;
+border-collapse:collapse;
+padding:2px;
+}
+th 
+{
+height:45px;
+background-color: beige;
+color:black;
+width: 60px;
+border-color:black;
+}
+.large 
+{
+    width: 200px;
+}
+.med{
+    width:70px;
+}
+.button {
+    font-size: 15px;
+    padding: 4px 12px;
+    line-height: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+    background-color: beige;
+    width: 100px;
+    margin: 0 120px 0 120px;
+}
+
+.style {
+    position:relative;
+    width: 500px;
+    margin: 0 320px 0;
+    top: 60px;
+}
+
+.ribbon{
+    position: relative;
+    width:1000px;
+    padding-right:auto;
+    padding-left: auto;
+}
+
+.front-text{
+    text-align:center;
+    padding-top:30px;
+    font:30px Arial;
+    color: antiquewhite;
+}
+
+.ribbon-front{
+    background-color: #393939;	
+    height: 100px;
+    width: 700px;
+    position: relative; 
+    top: 0px;
+    box-shadow: 0px 0px 100px rgba(0,0,0,0.55);
+    z-index: 2;
+}
+
+.ribbon-edge-topleft {
+    top: -10px;
+    border-width:10px 20px 0 0;
+    position: absolute;
+    z-index:1;
+    border-style:solid;
+    height:0px;
+    width:0px;
+    border-color:transparent #000000;
+}
+
+.ribbon-edge-topright {
+    top: -10px;
+    border-width: 10px 0 0 20px;
+    position: absolute;
+    z-index:1;
+    border-style:solid;
+    height:0px;
+    width:0px;
+    left: 680px;
+    border-color:transparent transparent transparent #000000;
+}
+
+.ribbon-edge-bottomleft {
+    border-width: 0 20px 0px 0;
+    position: absolute;
+    border-style:solid;
+    height:0px;
+    width:0px;
+    border-color:transparent #000000 transparent transparent;
+    top:100px;
+    z-index:1;
+}
+
+.ribbon-edge-bottomright {
+    border-width: 0 0 0px 20px;
+    position: absolute;
+    z-index:1;
+    border-style:solid;
+    height:0px;
+    width:0px;
+    left: 340px;
+    border-color:transparent transparent transparent #000000;
+    top:100px;
+}
+
+.ribbon-back-left {
+    position:absolute;
+    top: -10px;
+    left: -80px;
+    width: 100px;
+    height: 100px;
+    background-color:#393939;
+    z-index:0;
+    box-shadow: 0px 0px 200px rgba(0,0,0,0.55);
+}
+
+.ribbon-back-right {
+    position:absolute;
+    top: -10px;
+    right: 220px;
+    width: 100px;
+    height: 100px;
+    background-color:#393939;
+    z-index:0;
+    box-shadow: 0px 0px 200px rgba(0,0,0,0.55);
+}
